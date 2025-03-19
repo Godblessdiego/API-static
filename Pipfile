@@ -12,4 +12,4 @@ flask = "*"
 python_version = "3.12"
 
 [scripts]
-start = "python src/app.py"
+start = "env PYTHONPATH=. python src/app.py"
